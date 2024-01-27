@@ -16,7 +16,7 @@ You have to compile C files with a compiler (For instance gcc) to create an exec
 Begins with /* and ends with */
 
 ## Compile c
-Ensure your C code is betty compliant and compile code as below <br> ```gcc -Wall -Werror -Wextra -pedantic -std=gnu89 file.c -o file```
+Ensure your C code is betty compliant and compile code as below <br> ```gcc -Wall -Werror -Wextra -pedantic -std=gnu89 file.c -o file``` <br>To installl Betty, click link: [Install Betty](https://github.com/alx-tools/Betty)
 
 ### Tasks 
 **Write a script that runs a C file through the preprocessor** <br>
