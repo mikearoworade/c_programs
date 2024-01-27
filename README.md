@@ -46,7 +46,7 @@ The ```int scanf(const char *format, ...)``` function reads the input from the s
 The ```int printf(const char *format, ...)``` function writes the output to the standard output stream stdout and produces the output according to the format provided. <br>
 The format can be a simple constant string, but you can specify %s, %d, %c, %f, etc., to print or read strings, integer, character or float respectively.
 
-## C Data Types
+## [C Data Types](./c_datatype)
 Data types in c refer to an extensive system used for declaring variables or functions of different types. The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted.
 
 ### The Types in C
