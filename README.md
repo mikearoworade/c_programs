@@ -50,7 +50,7 @@ The format can be a simple constant string, but you can specify %s, %d, %c, %f, 
 Data types in c refer to an extensive system used for declaring variables or functions of different types. The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted.
 
 ### The Types in C
-* Basic Types: integer types and floating point type
+* Basic Types: integer types and floating point type. ```char, int, long int, float```
 * Enumerated types: arithmetic types and they are used to define variables that can only assign certain discrete integer values throughout the program.
 * The type void: The type specifier void indicates that no value is available.
 * Derived types: They include (a) Pointer types, (b) Array types, (c) Structure types, (d) Union types and (e) Function types.
