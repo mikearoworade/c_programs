@@ -24,14 +24,14 @@ imagine we have a c file called __main.c__. Hence we can export it as in ```expo
 __Solution__ <br> ```gcc -E $CFILE -o c```
 <br><br>
 **Write a Script that compiles a C file but does not link it** <br>
-Solution <br>
+__Solution__ <br>
 ```gcc -c $CFILE```
 <br><br>
 **Write a script that generates the assembly of a C code** <br>
-Solution <br>
+__Solution__ <br>
 ```gcc -S $CFILE```
 <br><br>
 **Write a script that compiles a C file and create an executable name __cisfun__** <br>
-Solution <br>
+__Solution__ <br>
 ```gcc $CFILE -o cisfun```
 <br><br>
