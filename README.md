@@ -46,3 +46,12 @@ The ```int scanf(const char *format, ...)``` function reads the input from the s
 The ```int printf(const char *format, ...)``` function writes the output to the standard output stream stdout and produces the output according to the format provided. <br>
 The format can be a simple constant string, but you can specify %s, %d, %c, %f, etc., to print or read strings, integer, character or float respectively.
 
+## C Data Types
+Data types in c refer to an extensive system used for declaring variables or functions of different types. The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted.
+
+### The Types in C
+* Basic Types: integer types and floating point type
+* Enumerated types: arithmetic types and they are used to define variables that can only assign certain discrete integer values throughout the program.
+* The type void: The type specifier void indicates that no value is available.
+* Derived types: They include (a) Pointer types, (b) Array types, (c) Structure types, (d) Union types and (e) Function types.
+
