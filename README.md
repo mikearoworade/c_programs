@@ -14,11 +14,12 @@ You have to compile C files with a compiler (For instance gcc) to create an exec
 Begins with /* and ends with */
 
 ## Compile c
-Ensure your C code is betty compliant and compile code as below
+Ensure your C code is betty compliant and compile code as below <br>
 ```gcc -Wall -Werror -Wextra -pedantic -std=gnu89 file.c -o file```
 
 ### Tasks
 **Write a script that runs a C file through the preprocessor**
 imagine we have a c file called __main.c__. Hence we can export it as in ```export CFILE=main.c```
+<br>
 __solution__
 ```gcc -E $CFILE -o c```
