@@ -35,3 +35,14 @@ __Solution__ <br>
 __Solution__ <br>
 ```gcc $CFILE -o cisfun```
 <br><br>
+
+## C Output
+### getchar() and putchar() function
+The ```int getchar()``` function reads the next available character from the screen and returns it as an integer.<br>
+The ```int putchar(int)``` function puts the passed character on the screen and return the same character. <br>
+
+### scanf() and printf()
+The ```int scanf(const char *format, ...)``` function reads the input from the standard input stream stdin and scans that input according to the format provided. <br>
+The ```int printf(const char *format, ...)``` function writes the output to the standard output stream stdout and produces the output according to the format provided. <br>
+The format can be a simple constant string, but you can specify %s, %d, %c, %f, etc., to print or read strings, integer, character or float respectively.
+
