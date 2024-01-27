@@ -36,7 +36,7 @@ __Solution__ <br>
 ```gcc $CFILE -o cisfun```
 <br><br>
 
-## C Input and Output
+## [C Input and Output](./c_input_output)
 ### getchar() and putchar() function
 The ```int getchar()``` function reads the next available character from the screen and returns it as an integer.<br>
 The ```int putchar(int)``` function puts the passed character on the screen and return the same character. <br>
