@@ -104,3 +104,34 @@ A character literal can be a plain character (e.g., 'x'), an escape sequence (e.
 | \t	          | Horizontal tab   |
 | \v	          | Vertical tab     |
 
+### Defining Constants
+* Using #define preprocessor: ```#define identifier value```
+* Using const keyword: ```const type variable = value;```
+
+### Storage classes
+A storage class defines the scope (visibility) and life-time of variables and/or functions within a C Program. They precede the type that they modify. We have four different storage classes in a C program
+* auto
+* register
+* static
+* extern
+
+#### auto
+The auto storage class is the default storage class for all local variables.
+```
+{
+   int mount;
+   auto int month;
+}
+```
+#### register
+The register storage class is used to define local variables that should be stored in a register instead of RAM. ```
+{
+   register int  miles;
+}
+```
+#### static
+The static storage class instructs the compiler to keep a local variable in existence during the life-time of the program instead of creating and destroying it each time it comes into and goes out of scope. Therefore, making local variables static allows them to maintain their values between function calls. <br>
+In C programming, when static is used on a global variable, it causes only one copy of that member to be shared by all the objects of its class.
+
+#### extern
+The extern storage class is used to give a reference of a global variable that is visible to ALL the program files. When you use 'extern', the variable cannot be initialized however, it points the variable name at a storage location that has been previously defined.
