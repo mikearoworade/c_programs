@@ -55,7 +55,7 @@ Data types in c refer to an extensive system used for declaring variables or fun
 * The type void: The type specifier void indicates that no value is available.
 * Derived types: They include (a) Pointer types, (b) Array types, (c) Structure types, (d) Union types and (e) Function types.
 
-## [C Variable, if else, while](./c_variable_if_else_while)
+## [C Variable,constant,storage classes](./c_variable_constant_storage_classes)
 A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable. <br>
 The name of a variable can be composed of letters, digits, and the underscore character. It must begin with either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive. Based on the basic types explained in the previous chapter, there will be the following basic variable types − ```char, int, float, double, void``` <br>
 ### Variable Definition in C
@@ -74,4 +74,33 @@ int d = 3, f = 5;           // definition and initializing d and f.
 byte z = 22;                // definition and initializes z. 
 char x = 'x';               // the variable x has the value 'x'.
 ```
+#### Integer Literal and floating literal
+```
+85         /* decimal */
+0213       /* octal */
+0x4b       /* hexadecimal */
+30         /* int */
+30u        /* unsigned int */
+30l        /* long */
+30ul       /* unsigned long */
+3.14159       /* Legal */
+314159E-5L    /* Legal */
+```
+#### Character Constant
+Character literals are enclosed in single quotes, e.g., 'x' can be stored in a simple variable of char type.
+<br>
+A character literal can be a plain character (e.g., 'x'), an escape sequence (e.g., '\t'), or a universal character (e.g., '\u02C0').
+| Escape sequence |	Meaning          |
+|-----------------|------------------|
+| \\              | \ character      |
+| \'              | ' character      |
+| \"	          | " character      |
+| \?	          | ? character      |
+| \a	          | Alert or bell    |
+| \b	          | Backspace        |
+| \f	          | Form feed        |
+| \n	          | Newline          |
+| \r	          | Carriage return  |
+| \t	          | Horizontal tab   |
+| \v	          | Vertical tab     |
 
