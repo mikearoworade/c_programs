@@ -153,3 +153,10 @@ For example, x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * ha
 | Conditional	   | ?:	                                   | Right to left       |
 | Assignment	   | = += -= *= /= %=>>= <<= &= ^= &#124;= | Right to left       |
 | Comma	           | ,	                                   | Left to right       |
+
+## [Control Flow](./c_control_flow)
+Control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
+<br>
+Below is an example of a control flow structure
+![control_flow](./decision_making.jpg)
+
