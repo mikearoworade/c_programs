@@ -61,8 +61,10 @@ The name of a variable can be composed of letters, digits, and the underscore ch
 ### Variable Definition in C
 ```type variable_list;```
 #### Examples
-```int    i, j, k;
+```
+int    i, j, k;
 char   c, ch;
 float  f, salary;
-double d;```
+double d;
+```
 
