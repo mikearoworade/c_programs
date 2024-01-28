@@ -55,7 +55,7 @@ Data types in c refer to an extensive system used for declaring variables or fun
 * The type void: The type specifier void indicates that no value is available.
 * Derived types: They include (a) Pointer types, (b) Array types, (c) Structure types, (d) Union types and (e) Function types.
 
-## C [Variable, if else, while](./c_variable_if_else_while)
+## [C Variable, if else, while](./c_variable_if_else_while)
 A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable. <br>
 The name of a variable can be composed of letters, digits, and the underscore character. It must begin with either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive. Based on the basic types explained in the previous chapter, there will be the following basic variable types − ```char, int, float, double, void``` <br>
 ### Variable Definition in C
@@ -64,9 +64,10 @@ The name of a variable can be composed of letters, digits, and the underscore ch
 ```int    i, j, k;
 char   c, ch;
 float  f, salary;
-double d;```
-**Variable can be initialized**
-```int    i, j, k;
-char   c, ch;
-float  f, salary;
-double d;```
+double d;```<br>
+
+#### Variable can be initialized
+```extern int d = 3, f = 5;    // declaration of d and f. 
+int d = 3, f = 5;           // definition and initializing d and f. 
+byte z = 22;                // definition and initializes z. 
+char x = 'x';               // the variable x has the value 'x'.```
