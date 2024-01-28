@@ -158,5 +158,5 @@ For example, x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * ha
 Control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
 <br>
 Below is an example of a control flow structure
-![control_flow](./decision_making.jpg)
+![control_flow](./c_control_flow/decision_making.jpg)
 
