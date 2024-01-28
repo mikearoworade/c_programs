@@ -132,3 +132,24 @@ In C programming, when static is used on a global variable, it causes only one c
 
 #### extern
 The extern storage class is used to give a reference of a global variable that is visible to ALL the program files. When you use 'extern', the variable cannot be initialized however, it points the variable name at a storage location that has been previously defined.
+
+### Operators Precedence in C
+Operator precedence determines the grouping of terms in an expression and decides how an expression is evaluated. Certain operators have higher precedence than others; for example, the multiplication operator has a higher precedence than the addition operator. <br>
+For example, x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * has a higher precedence than +, so it first gets multiplied with 3*2 and then adds into 7.
+|    Category	   |            Operator	          |    Associativity    |
+|------------------|----------------------------------|---------------------|
+| Postfix	       | () [] -> . ++ - -	              | Left to right       |
+| Unary	           | + - ! ~ ++ - - (type)* & sizeof  |	Right to left       |
+| Multiplicative   | * / %	                          | Left to right       |
+| Additive	       | + -	                          | Left to right       |
+| Shift	           | << >>	                          | Left to right       |
+| Relational	   | < <= > >=	                      | Left to right       |
+| Equality	       | == !=	                          | Left to right       |
+| Bitwise AND	   | &	                              | Left to right       |
+| Bitwise XOR	   | ^	                              | Left to right       |
+| Bitwise OR	   | |	                              | Left to right       |
+| Logical AND	   | &&	                              | Left to right       |
+| Logical OR	   | ||	                              | Left to right       |
+| Conditional	   | ?:	                              | Right to left       |
+| Assignment	   | = += -= *= /= %=>>= <<= &= ^= |= |	Right to left       |
+| Comma	           | ,	                              | Left to right       |
