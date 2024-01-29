@@ -157,6 +157,14 @@ For example, x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * ha
 ## [Control Flow](./c_control_flow)
 Control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
 <br>
-Below is an example of a control flow structure
+Below is an example of a control flow structure:<br><br>
 ![control_flow](./c_control_flow/decision_making.jpg)
-
+<br><br>
+C programming language assumes any non-zero and non-null values as true, and if it is either zero or null, then it is assumed as false value.
+<br>
+C programming language provides the following types of decision making statements.
+* if statement: An if statement consists of a boolean expression followed by one or more statements
+* if...else statement: An if statement can be followed by an optional else statement, which executes when the Boolean expression is false.
+* nested if statements: You can use one if or else if statement inside another if or else if statement(s).
+* switch statement: A switch statement allows a variable to be tested for equality against a list of values.
+* The ? : Operator
