@@ -1,0 +1,24 @@
+/*
+ * File: 8-main.c
+ */
+
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	print_times_table(3);
+	putchar('\n');
+
+	print_times_table(5);
+	putchar('\n');
+
+	print_times_table(12);
+	putchar('\n');
+
+	return (0);
+}
